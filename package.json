@@ -6,8 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",  <-- ADD THIS LINE
+    "test": "vitest"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.7",
