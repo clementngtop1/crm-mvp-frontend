@@ -6,7 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+<<<<<<< HEAD
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+=======
+	"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+>>>>>>> 26fa769433a36b3b96df001ef116bb81470f175f
     "preview": "vite preview", 
     "test": "vitest"
   },
